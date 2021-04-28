@@ -6,3 +6,26 @@ body {
 a {
   color: #00B7FF;
 }
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-styling-Black {
+  border: 3px solid black;
+}
+
+.box-styling-White {
+  border: 3px solid snow;
+}
+
+.box-styling-Orange {
+  border: 3px solid orange;
+}
+
+.box-styling-Bi-Color {
+  border: 3px solid rgb(55, 150, 38);
+}

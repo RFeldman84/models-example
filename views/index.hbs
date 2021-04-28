@@ -1,2 +1,28 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+
+{{#if catsArray}}
+
+{{#each catsArray}}
+<div class="center-content box-styling-{{this.color}}">
+
+  {{#if this.black}}
+  <video src=""></video>
+  {{else}}
+  {{#if this.white}}
+  <img src="" alt="" srcset="">
+  <h5>White cat: {{this.white}}</h5>
+  {{else}}
+  <h4>This cat's color is {{this.color}}</h4>
+  {{/if}}
+
+  {{/if}}
+
+  <h3>Name {{this.name}}</h3>
+
+</div>
+
+
+{{/each}}
+
+{{/if}}
